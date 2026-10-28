@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cricket World Pakistan</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#071525;color:white;font-family:Arial,sans-serif}
+header{background:linear-gradient(120deg,#007b48,#003b30);padding:30px 15px;text-align:center}
+header h1{font-size:36px;color:#fff}
+nav{background:#10283b;padding:14px;text-align:center;position:sticky;top:0}
+nav a{color:white;text-decoration:none;margin:10px;font-weight:bold}
+.container{max-width:1100px;margin:auto;padding:15px}
+.hero{background:#12364a;padding:25px;border-radius:12px;text-align:center}
+.hero h2{color:#4dff9a;font-size:28px}
+input{width:100%;padding:13px;margin:15px 0;border-radius:8px;border:0;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:15px}
+.card{background:#10283b;padding:18px;border-radius:12px;border:1px solid #23465d}
+.card h3{color:#4dff9a}
+button{background:#00a765;color:white;border:0;padding:10px 15px;border-radius:7px;cursor:pointer}
+section{margin:28px 0}
+h2.section{border-left:5px solid #00d982;padding-left:12px}
+.ad{background:#fff;color:#333;text-align:center;padding:25px;margin:20px 0;border:2px dashed #aaa}
+footer{text-align:center;background:#03101d;padding:25px;color:#ccc}
+p{line-height:1.8}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🏏 CRICKET WORLD PAKISTAN</h1>
+<p>کرکٹ کی دنیا کی معلومات ایک ہی جگہ</p>
+<p>Players • Teams • Records • History • Rules</p>
+</header>
+
+<nav>
+<a href="#players">Players</a>
+<a href="#teams">Teams</a>
+<a href="#records">Records</a>
+<a href="#history">History</a>
+<a href="#rules">Rules</a>
+</nav>
+
+<div class="container">
+
+<div class="hero">
+<h2>Welcome to Cricket World!</h2>
+<p>دنیا کے مشہور کرکٹرز، ٹیموں، ریکارڈز اور کرکٹ کی تاریخ کے بارے میں جانیں۔</p>
+</div>
+
+<input id="search" placeholder="کرکٹر، ٹیم یا معلومات تلاش کریں..." oninput="searchCards()">
+
+<div class="ad">
+<strong>Advertisement Space</strong>
+<p>منظوری کے بعد یہاں اصل اشتہار کا کوڈ لگائیں۔</p>
+</div>
+
+<section id="players">
+<h2 class="section">🌟 مشہور کرکٹرز</h2>
+<div class="grid">
+
+<div class="card"><h3>Babar Azam</h3>
+<p>ملک: پاکستان</p><p>کردار: بلے باز</p>
+<p>بابر اعظم پاکستان کے معروف جدید بلے بازوں میں شامل ہیں۔ وہ اپنی کور ڈرائیو اور بیٹنگ تکنیک کے لیے مشہور ہیں۔</p></div>
+
+<div class="card"><h3>Virat Kohli</h3>
+<p>ملک: بھارت</p><p>کردار: بلے باز</p>
+<p>ویرات کوہلی اپنی مستقل کارکردگی، تعاقب میں بیٹنگ اور فٹنس کے لیے معروف ہیں۔ انہوں نے بین الاقوامی کرکٹ میں متعدد بڑے ریکارڈ بنائے ہیں۔</p></div>
+
+<div class="card"><h3>Shaheen Afridi</h3>
+<p>ملک: پاکستان</p><p>کردار: فاسٹ بولر</p>
+<p>شاہین شاہ آفریدی بائیں ہاتھ کے تیز گیند باز ہیں۔ نئی گیند سے وکٹیں لینے کی صلاحیت ان کی نمایاں خوبی ہے۔</p></div>
+
+<div class="card"><h3>Jasprit Bumrah</h3>
+<p>ملک: بھارت</p><p>کردار: فاسٹ بولر</p>
+<p>جسپریت بمراہ اپنے منفرد ایکشن، یارکر اور ڈیتھ اوورز میں بولنگ کے لیے مشہور ہیں۔</p></div>
+
+<div class="card"><h3>Mohammad Rizwan</h3>
+<p>ملک: پاکستان</p><p>کردار: وکٹ کیپر بلے باز</p>
+<p>محمد رضوان پاکستان کے وکٹ کیپر بلے باز ہیں، جو مختلف فارمیٹس میں بیٹنگ اور وکٹ کیپنگ کرتے ہیں۔</p></div>
+
+<div class="card"><h3>Joe Root</h3>
+<p>ملک: انگلینڈ</p><p>کردار: بلے باز</p>
+<p>جو روٹ انگلینڈ کے معروف ٹیسٹ بلے باز ہیں اور اپنی تکنیک اور مستقل مزاجی کے لیے جانے جاتے ہیں۔</p></div>
+
+<div class="card"><h3>Kane Williamson</h3>
+<p>ملک: نیوزی لینڈ</p><p>کردار: بلے باز</p>
+<p>کین ولیمسن اپنی پرسکون بیٹنگ اور مضبوط تکنیک کے لیے مشہور ہیں۔ وہ نیوزی لینڈ کی کرکٹ کے اہم کھلاڑی رہے ہیں۔</p></div>
+
+<div class="card"><h3>Ben Stokes</h3>
+<p>ملک: انگلینڈ</p><p>کردار: آل راؤنڈر</p>
+<p>بین اسٹوکس بیٹنگ، بولنگ اور اہم لمحات میں میچ کا رخ بدلنے کی صلاحیت کے لیے معروف ہیں۔</p></div>
+
+<div class="card"><h3>Rashid Khan</h3>
+<p>ملک: افغانستان</p><p>کردار: لیگ اسپن بولر</p>
+<p>راشد خان دنیا کے معروف ٹی ٹوئنٹی اسپنرز میں شمار ہوتے ہیں اور کئی بین الاقوامی لیگوں میں کھیل چکے ہیں۔</p></div>
+
+<div class="card"><h3>Chris Gayle</h3>
+<p>ملک: ویسٹ انڈیز</p><p>کردار: بلے باز</p>
+<p>کرس گیل جارحانہ بیٹنگ اور ٹی ٹوئنٹی کرکٹ میں بڑے چھکے لگانے کے لیے مشہور ہیں۔</p></div>
+
+<div class="card"><h3>AB de Villiers</h3>
+<p>ملک: جنوبی افریقہ</p><p>کردار: سابق بلے باز</p>
+<p>اے بی ڈی ویلیئرز غیر معمولی شاٹس اور مختلف سمتوں میں رنز بنانے کی صلاحیت کے لیے مشہور رہے ہیں۔</p></div>
+
+<div class="card"><h3>MS Dhoni</h3>
+<p>ملک: بھارت</p><p>کردار: سابق وکٹ کیپر اور کپتان</p>
+<p>ایم ایس دھونی اپنی کپتانی، وکٹ کیپنگ اور میچ ختم کرنے کی صلاحیت کے لیے مشہور ہیں۔</p></div>
+
+</div>
+</section>
+
+<section id="teams">
+<h2 class="section">🌍 بین الاقوامی کرکٹ ٹیمیں</h2>
+<div class="grid">
+<div class="card"><h3>🇵🇰 پاکستان</h3><p>مشہور کھلاڑی: بابر اعظم، شاہین آفریدی، محمد رضوان۔ پاکستان نے 1992 کا ون ڈے ورلڈ کپ اور 2009 کا ٹی ٹوئنٹی ورلڈ کپ جیتا۔</p></div>
+<div class="card"><h3>🇮🇳 بھارت</h3><p>بھارت نے 1983 اور 2011 کے ون ڈے ورلڈ کپ جیتے۔ معروف کھلاڑیوں میں ویرات کوہلی اور روہت شرما شامل ہیں۔</p></div>
+<div class="card"><h3>🇦🇺 آسٹریلیا</h3><p>آسٹریلیا کرکٹ کی کامیاب ترین ٹیموں میں شامل ہے اور کئی ون ڈے ورلڈ کپ جیت چکا ہے۔</p></div>
+<div class="card"><h3>🏴 انگلینڈ</h3><p>انگلینڈ نے 2019 کا ون ڈے ورلڈ کپ جیتا اور جدید کرکٹ کے ابتدائی مراکز میں سے ایک ہے۔</p></div>
+<div class="card"><h3>🇳🇿 نیوزی لینڈ</h3><p>نیوزی لینڈ اپنی ٹیم ورک، فیلڈنگ اور بین الاقوامی مقابلوں میں مضبوط کارکردگی کے لیے معروف ہے۔</p></div>
+<div class="card"><h3>🇿🇦 جنوبی افریقہ</h3><p>جنوبی افریقہ تیز گیند بازوں، اچھے فیلڈرز اور مضبوط بلے بازوں کے لیے مشہور ہے۔</p></div>
+<div class="card"><h3>🇱🇰 سری لنکا</h3><p>سری لنکا نے 1996 کا ون ڈے ورلڈ کپ جیتا۔ مرلی دھرن اور سنگاکارا اس کے معروف کھلاڑی رہے ہیں۔</p></div>
+<div class="card"><h3>🇧🇩 بنگلہ دیش</h3><p>بنگلہ دیش نے 1997 کی آئی سی سی ٹرافی جیت کر ون ڈے ورلڈ کپ 1999 کے لیے کوالیفائی کیا تھا۔</p></div>
+<div class="card"><h3>🇦🇫 افغانستان</h3><p>افغانستان نے محدود اوورز کی کرکٹ میں نمایاں ترقی کی ہے اور اس کے اسپنرز بین الاقوامی سطح پر معروف ہیں۔</p></div>
+<div class="card"><h3>🌴 ویسٹ انڈیز</h3><p>ویسٹ انڈیز نے 1975 اور 1979 کے ون ڈے ورلڈ کپ جیتے۔ ویوین رچرڈز اور کرس گیل اس کے مشہور کھلاڑی ہیں۔</p></div>
+</div>
+</section>
+
+<section id="records">
+<h2 class="section">🏆 کرکٹ کے اہم ریکارڈز</h2>
+<div class="grid">
+<div class="card"><h3>سب سے زیادہ ٹیسٹ رنز</h3><p>سچن ٹنڈولکر ٹیسٹ کرکٹ میں سب سے زیادہ رنز بنانے والے کھلاڑی ہیں۔</p></div>
+<div class="card"><h3>سب سے زیادہ ون ڈے رنز</h3><p>سچن ٹنڈولکر ون ڈے بین الاقوامی کرکٹ میں بھی سب سے زیادہ رنز بنانے والوں میں سرفہرست ہیں۔</p></div>
+<div class="card"><h3>بہترین انفرادی ٹیسٹ اسکور</h3><p>برائن لارا نے 2004 میں ٹیسٹ میچ کی ایک اننگز میں ناٹ آؤٹ 400 رنز بنائے۔</p></div>
+<div class="card"><h3>ون ڈے میں 200 رنز</h3><p>سچن ٹنڈولکر 2010 میں ون ڈے انٹرنیشنل میں 200 رنز بنانے والے پہلے مرد کھلاڑی بنے۔</p></div>
+<div class="card"><h3>پاکستان کا ورلڈ کپ</h3><p>پاکستان نے عمران خان کی کپتانی میں 1992 کا ون ڈے ورلڈ کپ جیتا۔</p></div>
+<div class="card"><h3>ٹی ٹوئنٹی ورلڈ کپ</h3><p>پاکستان نے 2009 میں ٹی ٹوئنٹی ورلڈ کپ جیتا۔</p></div>
+</div>
+</section>
+
+<section id="history">
+<h2 class="section">📚 کرکٹ کی تاریخ</h2>
+<div class="card">
+<h3>کرکٹ کا آغاز</h3>
+<p>کرکٹ کی ابتدا انگلینڈ میں ہوئی اور وقت کے ساتھ یہ دنیا کے مختلف ممالک میں پھیل گئی۔ آج ٹیسٹ، ون ڈے اور ٹی ٹوئنٹی اس کھیل کے اہم بین الاقوامی فارمیٹس ہیں۔</p>
+<h3>ٹیسٹ کرکٹ</h3>
+<p>ٹیسٹ کرکٹ روایتی بین الاقوامی فارمیٹ ہے۔ ایک میچ عام طور پر پانچ دن تک چل سکتا ہے اور دونوں ٹیموں کو دو دو اننگز مل سکتی ہیں۔</p>
+<h3>ون ڈے کرکٹ</h3>
+<p>ون ڈے انٹرنیشنل میں ہر ٹیم عام طور پر 50 اوور کھیلتی ہے۔ زیادہ رنز بنانے والی ٹیم جیتتی ہے، بشرطیکہ میچ کا نتیجہ نکل سکے۔</p>
+<h3>ٹی ٹوئنٹی کرکٹ</h3>
+<p>ٹی ٹوئنٹی میں ہر ٹیم عام طور پر 20 اوور کھیلتی ہے۔ یہ فارمیٹ تیز رفتار کھیل اور جارحانہ بیٹنگ کے لیے معروف ہے۔</p>
+</div>
+</section>
+
+<section id="rules">
+<h2 class="section">📖 کرکٹ کے بنیادی قوانین</h2>
+<div class="grid">
+<div class="card"><h3>اوور</h3><p>ایک عام اوور میں چھ قانونی گیندیں ہوتی ہیں۔ بعض اضافی گیندوں کی وجہ سے اوور میں زیادہ گیندیں بھی ہو سکتی ہیں۔</p></div>
+<div class="card"><h3>آؤٹ ہونے کے طریقے</h3><p>بولڈ، کیچ، ایل بی ڈبلیو، رن آؤٹ اور اسٹمپڈ کرکٹ میں آؤٹ ہونے کے عام طریقے ہیں۔</p></div>
+<div class="card"><h3>رنز</h3><p>بلے باز دوڑ کر رنز لے سکتے ہیں۔ باؤنڈری پر گیند پہنچنے پر عام طور پر چار، اور بغیر زمین چھوئے باؤنڈری پار کرنے پر چھ رنز ملتے ہیں۔</p></div>
+<div class="card"><h3>نو بال</h3><p>غیر قانونی گیند پر عام طور پر بیٹنگ ٹیم کو ایک اضافی رن ملتا ہے اور فارمیٹ کے قوانین کے مطابق فری ہٹ بھی ہو سکتی ہے۔</p></div>
+<div class="card"><h3>وائیڈ بال</h3><p>بلے باز کی پہنچ سے بہت دور گیند ہونے پر امپائر وائیڈ دے سکتا ہے۔ اس پر اضافی رن ملتا ہے۔</p></div>
+<div class="card"><h3>ٹاس</h3><p>میچ سے پہلے ٹاس ہوتا ہے۔ ٹاس جیتنے والا کپتان پہلے بیٹنگ یا بولنگ کا انتخاب کرتا ہے۔</p></div>
+</div>
+</section>
+
+<section>
+<h2 class="section">🎯 کرکٹ کی مزید معلومات</h2>
+<div class="grid">
+<div class="card"><h3>بیٹنگ</h3><p>اچھی بیٹنگ کے لیے فٹ ورک، شاٹ سلیکشن، گیند کو دیکھنا اور صورتحال کے مطابق کھیلنا اہم ہے۔</p></div>
+<div class="card"><h3>بولنگ</h3><p>فاسٹ بولنگ میں رفتار، لائن، لینتھ اور سوئنگ اہم ہیں۔ اسپن بولنگ میں فلائٹ اور ٹرن کردار ادا کرتے ہیں۔</p></div>
+<div class="card"><h3>فیلڈنگ</h3><p>اچھی فیلڈنگ میں کیچ پکڑنا، تیز تھرو، درست پوزیشننگ اور ٹیم ورک شامل ہیں۔</p></div>
+<div class="card"><h3>وکٹ کیپنگ</h3><p>وکٹ کیپر اسٹمپس کے پیچھے کھڑا ہوتا ہے اور گیند پکڑنے، اسٹمپنگ اور کیچ لینے میں اہم کردار ادا کرتا ہے۔</p></div>
+<div class="card"><h3>کپتانی</h3><p>کپتان فیلڈنگ کی ترتیب، بولنگ تبدیلیوں اور میچ کی حکمت عملی میں اہم فیصلے کرتا ہے۔</p></div>
+<div class="card"><h3>امپائر</h3><p>امپائر قوانین کے مطابق فیصلے کرتا ہے اور میچ کو منصفانہ طریقے سے چلانے میں مدد دیتا ہے۔</p></div>
+</div>
+</section>
+
+<div class="ad">
+<strong>Advertisement Space 2</strong>
+<p>اصل اشتہار صرف اشتہاری نیٹ ورک کی منظوری اور اس کے فراہم کردہ کوڈ سے دکھائیں۔</p>
+</div>
+
+</div>
+
+<footer>
+<p>Cricket World Pakistan © 2026</p>
+<p>یہ کرکٹ معلوماتی ویب سائٹ ہے۔ تازہ ترین اعداد و شمار وقت کے ساتھ بدل سکتے ہیں۔</p>
+</footer>
+
+<script>
+function searchCards(){
+  const q=document.getElementById("search").value.toLowerCase();
+  document.querySelectorAll(".card").forEach(card=>{
+    card.style.display=card.innerText.toLowerCase().includes(q)?"block":"none";
+  });
+}
+</script>
+</body>
+</html>
